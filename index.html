@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ПромВодОчистка</title>
+</head>
+<body>
+
+<!-- НАВБАР + БУРГЕР МЕНЮ -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo1.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#glav">Главная</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              О предприятии
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#onas">О нас</a></li>
+              <li><a class="dropdown-item" href="#inf">Почему мы?</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#news">Оборудование</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#send">Заявка</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+<!-- ГЛАВНАЯ СЕКЦИЯ -->
+<div class="container" id="glav"  >
+  <div class="row">
+    <div class="col">
+      <h1>Производство промышленных систем водоподготовки, водоочистки и водопроводной арматуры</h1>
+    </div>
+  </div>
+</div>
+
+<!-- О НАС + СЛАЙДЕР -->
+  <div class="container" id="onas">
+    <div class="row">
+      <div class="col">
+        <h1>О предприятии</h1>
+        <p>Компания ООО «НПЦ ПромВодОчистка» является не только официальным дилером в России ряда зарубежных концернов по оборудованию очистки воды и регулирующей арматуры, но и сама производит передовое оборудование для очистки воды и сточных вод, таких марок как «ПВО», «ГЦ», «РКМ», «АКВ» и еще более 10 различных типов.
+
+          Оборудование собственного производства является эталоном надежности и качества, а также включает в себя комплектующие лучших мировых и отечественных брендов. Компания имеет несколько производственных площадок для изготовления и сборки оборудования очистки воды и сточных вод. Ввиду постоянного развития различных направлений производственных мощностей, компания имеет возможность изготавливать оборудование из различных металлов и пластиков, что позволяет обеспечить необходимые технологические параметры по химической стойкости оборудования и оптимизировать стоимость конечного изделия.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Mask Group.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- АККОРДЕОН -->
+<div class="container" id="inf"> 
+  <div class="row">
+    <div class="row">
+      <div class="col">
+        <h1>Почему доверяют нашим системам</h1>
+      </div>
+    </div>
+    <div class="col">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <h6>Гарантия качества</h6>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Используем комплектующие отечественных 
+              и зарубежных заводов-производителей, 
+              а несколько ступеней проверки на этапе изготовления обеспечивает надежность нашего оборудования.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h6>Понятная установка</h6>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Затраты на монтаж и пусконаладку 
+              не обязательны, если квалификация ваших сотрудников соответствует требованиям. Техническая документация позволит подключить и запустить установку самостоятельно с сохранением гарантии</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h6>Оптимальные сроки производства</h6>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Комплектующие всегда в наличии. Два больших склада обеспечивают безостановочное производство систем обратного осмоса. Срок отгрузки типового оборудования малой производительности 10-15 рабочих дней. Сроки реализации больших проектов от 50 м3/ч от обращения до запуска — 60-70 рабочих дней.</div>
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+<!-- КАРТОЧКИ + ТУЛТИПЫ + МОДАЛЬНЫЕ ОКНА -->
+<div class="container"  id="news">
+  <div class="row">
+    <div class="col">
+      <h1>Оборудование для водоподготовки</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <!-- тултип -->
+      <div class="card" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Нажмите, чтоб узнать больше" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="card-body">
+          <p class="card-text">Системы обратного осмоса</p>
+        </div>
+        <img src="img/card1.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+
+    <!-- модальное окно -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Системы обратного осмоса</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <p class="card-text">Обратный осмос используют с 1970-х годов при очистке воды, получении питьевой воды из морской воды, получении особо чистой воды для медицины, промышленности и других нужд. С помощью обратного осмоса также можно производить концентраты соков без нагрева.</p>
+              <img src="img/card1.png" class="card-img-top" alt="...">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+            <!-- тултип -->
+      <div class="card" data-toggle="tooltip" data-placement="top" title="Нажмите, чтоб узнать больше" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+        <div class="card-body">
+          <p class="card-text">Станции ультрафильтрации</p>
+        </div>
+        <img src="img/card2.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+
+        <!-- модальное окно -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Установки ультрафильтрации</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p class="card-text">Типичное применение ультрафильтрации — отделение макромолекулярных компонентов от раствора, причем нижний предел отделяемых растворенных веществ соответствует молекулярным массам в несколько тысяч. Процесс мембранного разделения, а также фракционирования и концентрирования веществ, осуществляемый путем фильтрования жидкости под действием разности давлений до и после мембраны. Размер пор ультрафильтрационных мембран варьируется от 0,01 до 0,1 мкм.</p>
+                  <img src="img/card2.png" class="card-img-top" alt="...">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col">
+            <!-- тултип -->
+      <div class="card" data-toggle="tooltip" data-placement="top" title="Нажмите, чтоб узнать больше" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        <div class="card-body">
+          <p class="card-text">Станции водоподготовки</p>
+        </div>
+        <img src="img/card3.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+
+        <!-- модальное окно -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Станции водоподготовки</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p class="card-text">Очистная станция или станция водоподготовки – система очистки воды, которая устанавливается в городской водопровод, на предприятиях или в частном доме. Станция позволяет получить качественно очищенную жидкость от грязи и примесей, обеззараженную и мягкую воду. Городские станции, как правило, старые и в плохом состоянии. Поэтому полноценно со своей задачей не справляются.</p>
+                  <img src="img/card3.png" class="card-img-top" alt="...">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <div class="col">
+            <!-- тултип -->
+      <div class="card" data-toggle="tooltip" data-placement="top" title="Нажмите, чтоб узнать больше" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+        <div class="card-body">
+          <p class="card-text">Автоматические станции</p>
+        </div>
+        <img src="img/card4.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- модальное окно -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Автоматические станции</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <p class="card-text">Фильтрационные автоматические станции являются полностью готовым к использованию комплексным решением для водоподготовки. В состав установок входят готовые модули, состоящие из фильтров различных диаметров, регулирующей арматуры, трубопроводной обвязки, программируемых модулей управления. Все модули свободно стыкуются друг с другом, что наряду с различными вариациями диаметров фильтров, дает возможность создать любую конфигурацию с нужной производительностью. Возможность многоступенчатой фильтрации за счет соединения различных модулей. </p>
+                  <img src="img/card4.png" class="card-img-top" alt="...">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- ФОРМА -->
+<div class="container" id="send">
+  <div class="row">
+    <div class="col">
+      <h1>Оставить заявку</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <form>        
+        <div class="mb-3">
+          <label for="exampleInputText" class="form-label" required>Фамилия</label>
+          <input type="text" class="form-control" id="exampleInputText">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputText" class="form-label" required>Имя</label>
+          <input type="text" class="form-control" id="exampleInputText">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Почта для обратной связи</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputText" class="form-label" required>Текст обращения</label>
+          <input type="text" class="form-control" id="exampleInputText">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+          <label class="form-check-label" for="exampleCheck1">Я ознакомлен(а) с пользовательским соглашением</label>
+        </div>
+        <button type="submit" class="btn btn-primary"  data-toggle="tooltip" data-placement="top" data-bs-custom-class="custom-tooltip" title="Проверьте правильность заполнения полей">Отправить</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- ПОДВАЛ -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <ul class="list-group">
+          <li class="list-group">
+            <h6>НПЦ ПромВодОчистка</h6>
+          </li>
+          <li class="list-group">
+            <p>9(999)-999-99-99</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <ul class="list-group">
+          <li class="list-group">
+            <a class="nav-link" href="#glav">Главная</a>
+          </li>
+          <li class="list-group">
+            <a class="nav-link" href="#onas">О предприятии</a>
+          </li>
+          <li class="list-group">
+            <a class="dropdown-item" href="#news">Оборудование</a>
+          </li>
+          <li class="list-group">
+            <a class="nav-link" href="#send">Заявка</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+#glav{
+  background-image: url("../img/hero-image.jpg");
+  background-size: cover;
+  color: #fff;
+  border-radius: 20px;
+  height: 400px;
+  padding: 100px;
+}
+.navbar{
+padding: 0px 50px;
+}
+.container {
+ padding: 50px 10px;
+}
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+.footer {
+  background-color: #393185;
+  color: #fff;
+}
+.btn-primary{
+  background-color: #393185;
+  border: #393185;
+}
+
+.form-check-input:checked {
+  background-color: #393185;
+  border-color: #393185;
+}
+.accordion-button:focus {
+  border-color: #393185;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: #393185;
+}
+.accordion {
+  --bs-accordion-btn-focus-border-color: #393185 !important;
+  --bs-accordion-active-bg: #393185 !important;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0 !important;
+}
+.card{
+  margin: 10px;
+}
+
+@media (max-width: 980px)
+{
+  #glav{
+    padding: 50px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 660px)
+{
+  .navbar{
+    padding: 0px;
+    }
+}
+
+@media (max-width: 400px)
+{
+  #glav{
+    padding: 20px;
+  }
+}
